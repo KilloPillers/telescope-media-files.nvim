@@ -19,7 +19,7 @@ local M = {}
 
 local filetypes = {}
 local find_cmd = ""
-local image_stretch = 250
+local image_stretch = 1000
 
 M.base_directory=""
 M.media_preview = defaulter(function(opts)
